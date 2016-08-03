@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+
+body {
+  background: #2e3036;
+  text-align: center;
+  font-family: "Fredoka One", sans-serif;
+  color: #f0e4e4;
+  text-shadow: 1px 1px 2px #0e130e;
+}
+
+main {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+
+.pallete {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: center;
+}
+
+.swatch {
+  line-height: 200px;
+  height: 200px;
+  width: 200px;
+  border: 20px solid #666;
+  border-radius: 40px;
+  margin: 20px;
+  -webkit-user-select: none;
+  box-shadow: 10px 10px 0 0 #222, inset 0 0 10px #000000;
+}
